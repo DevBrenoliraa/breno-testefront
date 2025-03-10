@@ -1,0 +1,47 @@
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 400px;
+    background-color: #001F3F;
+}
+
+.textosobre {
+    max-width: 50%;
+}
+
+.titlesobre {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 64px;
+    position: relative;
+}
+
+.titlesobre::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #F4F4F4;
+    margin-top: 10px;
+}
+
+.descricaosobre {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #F4F4F4;
+    margin-bottom: 30px;
+}
+
+.imgsobre {
+    max-width: 50%;
+}
+
+.imgsobre img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}

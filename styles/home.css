@@ -1,0 +1,68 @@
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 280px 400px;
+    background-color: #f9f9f9;
+}
+
+.textoesquerda {
+    max-width: 50%; 
+}
+
+.saudacao {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #001F3F;
+    margin-bottom: 10px;
+}
+
+.nome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #001F3F;
+    margin-bottom: 15px;
+}
+
+.cargo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #001F3F;
+    margin-bottom: 30px;
+}
+
+.cargo span {
+    font-weight: 900;
+}
+
+.mideas {
+    display: flex;
+    gap: 30px;
+}
+
+.mideas a {
+    color: #001F3F;
+    text-decoration: none;
+}
+
+.mideas i {
+    font-size: 40px;
+    transition: transform 0.3s ease;
+}
+
+.mideas i:hover {
+    transform: scale(1.2);
+}
+
+.imagemDireita {
+    max-width: 40%;
+}
+
+.imagemDireita img {
+    width: 100%;
+    height: auto;
+}
